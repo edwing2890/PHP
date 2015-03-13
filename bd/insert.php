@@ -11,8 +11,8 @@ con el cual accedemos a dichas funcionalidades
 query = Configura el query que quieres ejecutar sobre tu bd de la conexion (el cual puede estar almacenado en una variable 
 o bien colocar el el query como un string de manera directa)
 insert_id = Obtiene el ultimo id insertado en la bd*/
-$conexion->query($query);  
-if($conexion->insert_id > 0)
+$conexion->query($query);  //Ejecuto el query
+if($conexion->insert_id > 0) //Compruebo si el ultimo registro insertado es mayor a cero quiere decir que se registro en la bd
 	echo "Registro insertado exitosamente";
 else
 	echo "Error al insertar el registro en la tabla";
