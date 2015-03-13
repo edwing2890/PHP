@@ -2,7 +2,7 @@
 include "conexion.php";
 if(@$_POST)
 {
-    mysqli_query($conexion,"INSERT INTO practicas values(NULL,'".$_POST["nombre"]."','".$_POST["edad"]."','".$_POST["sexo"]."')");
+    mysqli_query($conexion,"INSERT INTO practicas values(NULL,'".$_POST["nombre"]."',".$_POST["edad"].",'".$_POST["sexo"]."')");
     echo "Registro hecho";
 }
 ?>
