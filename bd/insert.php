@@ -13,8 +13,6 @@ if(isset($_POST['nombre']))
 </head>
 <body>
     <form name="REGISTRO_USU" method="POST" action="practicaregistro.php">
-      <body style="background: #80FF00;">
-    
       <h1>REGISTRESE AQUI</h1>
         <label>Nombre: <input type="text" name="nombre" id="nombre" required=""/></label><br />
         <br />
@@ -23,8 +21,8 @@ if(isset($_POST['nombre']))
         <label>Sexo: <input type="text" name="sexo" id="sexo" required=""/></label><br />
         <br />
         <button type="submit">ACEPTAR</button> 
+        <!-- <a href="http://www.sistemasaplicados.com.mx/index.php">CANCELAR</a>-->
         <a href="http://www.sistemasaplicados.com.mx/index.php"><input type="button" value="CANCELAR"/> </a>
-      </body>  
     </form>
 </body>
 </html>
