@@ -11,7 +11,7 @@ if(isset($_POST['nombre']))
 <head>
 <title>REGISTRO</title>
 </head>
-  
+<body>
     <form name="REGISTRO_USU" method="POST" action="practicaregistro.php">
       <body style="background: #80FF00;">
     
@@ -26,4 +26,5 @@ if(isset($_POST['nombre']))
         <a href="http://www.sistemasaplicados.com.mx/index.php"><input type="button" value="CANCELAR"/> </a>
       </body>  
     </form>
+</body>
 </html>
